@@ -22,4 +22,6 @@ router.get("/gatos", obtenerGatos);
 
 router.put("/gato/:id", upload.single("imagen"), actualizarGato);
 
+router.delete("/gato/:id", eliminarGato);
+
 export default router;
